@@ -2,7 +2,7 @@
 const binarySearch = function(arr, num){
 
     arr.sort();
-    
+
     let start = 0;
     let end = arr.length - 1;
     while(start <= end){
@@ -20,6 +20,8 @@ const binarySearch = function(arr, num){
 
     return -1;
 }
+
+export default binarySearch;
 
 // let arr = [1,2, 3,4, 5, 6, 7, 8,9];
 // console.log(binarySearch(arr, 7));
